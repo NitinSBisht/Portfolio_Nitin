@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
     const { Resend } = await import("resend");
     const resend = new Resend(apiKey);
-    await resend.emails.send({ to, from, subject: `Portfolio Contact: ${name}`, replyTo: email, text: message });
+    await resend.emails.send({ to, from, subject: `Portfolio Contact: ${name}`, reply_to: email, text: message });
     return NextResponse.json({ message: "Sent" }, { status: 200 });
   } catch (e) {
     return NextResponse.json({ message: "Failed" }, { status: 500 });
