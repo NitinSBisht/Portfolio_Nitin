@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Task Manager",
+    "description": "MERN app with JWT auth and Kanban boards.",
+    "tags": ["React", "Node", "MongoDB", "Express"],
+    "github": "https://github.com/you/task-manager",
+    "demo": "#"
+  },
+  {
+    "title": "E-commerce",
+    "description": "Full-stack store with cart, payments, and admin.",
+    "tags": ["Next.js", "MongoDB", "Stripe"],
+    "github": "https://github.com/you/ecommerce",
+    "demo": "#"
+  }
+]
