@@ -1,16 +1,45 @@
 [
   {
-    "title": "Task Manager",
-    "description": "MERN app with JWT auth and Kanban boards.",
-    "tags": ["React", "Node", "MongoDB", "Express"],
-    "github": "https://github.com/you/task-manager",
-    "demo": "#"
+    "title": "SafeSphere",
+    "description": "Full‑stack MERN SaaS for incident reporting, observation logging, MOC (Management of Change), and meeting records with org‑level customization.",
+    "role": "Full‑stack Developer",
+    "period": "",
+    "responsibilities": [
+      "Implemented role‑based access control and secure report storage",
+      "Built CSV‑based user onboarding for organizations",
+      "Delivered organization‑level configuration and multi‑tenant flows"
+    ],
+    "tech": ["React.js", "Redux Toolkit", "Redux Persist", "Node.js", "Express.js", "MongoDB", "MySQL"],
+    "github": "",
+    "demo": "https://safesphere.isafetylog.com/"
   },
   {
-    "title": "E-commerce",
-    "description": "Full-stack store with cart, payments, and admin.",
-    "tags": ["Next.js", "MongoDB", "Stripe"],
-    "github": "https://github.com/you/ecommerce",
-    "demo": "#"
+    "title": "Hartzell Helios (Signia Aerospace)",
+    "description": "Sub‑project to centralize and manage critical records across operations with secure access and advanced search.",
+    "role": "Full‑stack Developer",
+    "period": "",
+    "responsibilities": [
+      "Designed secure document management and data categorization",
+      "Implemented role‑based access and advanced search capabilities",
+      "Integrated AWS S3 for durable document storage"
+    ],
+    "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "AWS S3"],
+    "github": "",
+    "demo": "https://helios.signiaaerospace.com/"
+  },
+  {
+    "title": "PadelPro – Sports Booking & Management",
+    "description": "Multi‑role SaaS for Padel clubs enabling super admin, club admins, and players to manage bookings, memberships, and payments.",
+    "role": "Full‑stack Developer",
+    "period": "",
+    "responsibilities": [
+      "Built super admin panel for club registration, plans, holidays, and dynamic pricing",
+      "Implemented club admin dashboard for player/court management and memberships",
+      "Delivered player app for slot booking, booking modifications, and split/single payments",
+      "Designed payment workflows and end‑to‑end RESTful APIs"
+    ],
+    "tech": ["React.js", "Node.js", "Express.js", "MySQL", "Sequelize", "AWS EC2", "AWS S3", "JWT"],
+    "github": "",
+    "demo": ""
   }
 ]
