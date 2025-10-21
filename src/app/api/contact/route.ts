@@ -15,9 +15,23 @@ export async function POST(req: NextRequest) {
     if (!apiKey || !to || !from) {
       return NextResponse.json({ message: "Email not configured" }, { status: 200 });
     }
-    const { Resend } = await import("resend");
-    const resend = new Resend(apiKey);
-    await resend.emails.send({ to, from, subject: `Portfolio Contact: ${name}`, reply_to: email, text: message });
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from,
+        to,
+        subject: `Portfolio Contact: ${name}`,
+        text: message,
+        reply_to: email,
+      }),
+    });
+    if (!res.ok) {
+      return NextResponse.json({ message: "Failed" }, { status: 500 });
+    }
     return NextResponse.json({ message: "Sent" }, { status: 200 });
   } catch (e) {
     return NextResponse.json({ message: "Failed" }, { status: 500 });
