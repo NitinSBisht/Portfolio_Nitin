@@ -51,10 +51,12 @@ export default function Page() {
                 <ul className="grid gap-2 sm:grid-cols-2 text-sm">
                   <li className="rounded border px-3 py-2">React, Next.js (App Router), TypeScript</li>
                   <li className="rounded border px-3 py-2">Node.js, Express.js, REST APIs</li>
-                  <li className="rounded border px-3 py-2">MongoDB, Mongoose/Prisma</li>
+                  <li className="rounded border px-3 py-2">My SQL ,MongoDB, Mongoose</li>
                   <li className="rounded border px-3 py-2">TailwindCSS, shadcn/ui</li>
                   <li className="rounded border px-3 py-2">Auth: JWT, Sessions, RBAC</li>
                   <li className="rounded border px-3 py-2">React Query, Zustand/Redux</li>
+                  <li className="rounded border px-3 py-2">Stripe, Razorpay, Cashfree</li>
+
                 </ul>
               </div>
             </div>
