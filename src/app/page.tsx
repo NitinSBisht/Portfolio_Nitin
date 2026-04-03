@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import profile from "@/data/profile.json";
-import headshot from "./nitinImage.jpeg";
+import headshot from "./nitinImage.png";
 
 export default function Home() {
   return (
