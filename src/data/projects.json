@@ -1,4 +1,19 @@
 [
+    {
+    "title": "Pulse – Sports Booking & Management",
+    "description": "Multi‑role SaaS for Padel clubs enabling super admin, club admins, and players to manage bookings, memberships, and payments.",
+    "role": "Full‑stack Developer",
+    "period": "",
+    "responsibilities": [
+      "Built super admin panel for club registration, plans, holidays, and dynamic pricing",
+      "Implemented club admin dashboard for player/court management and memberships",
+      "Delivered player app for slot booking, booking modifications, and split/single payments",
+      "Designed payment workflows and end‑to‑end RESTful APIs"
+    ],
+    "tech": ["React.js", "Node.js", "Express.js", "MySQL", "Sequelize", "AWS EC2", "AWS S3","AWS RDS","AWS SES","AWS Amplify", "JWT"],
+    "github": "",
+    "demo": "https://pulse-sport.io/"
+  },
   {
     "title": "SafeSphere",
     "description": "Full‑stack MERN SaaS for incident reporting, observation logging, MOC (Management of Change), and meeting records with org‑level customization.",
@@ -26,20 +41,6 @@
     "tech": ["React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "AWS S3"],
     "github": "",
     "demo": "https://helios.signiaaerospace.com/"
-  },
-  {
-    "title": "PadelPro – Sports Booking & Management",
-    "description": "Multi‑role SaaS for Padel clubs enabling super admin, club admins, and players to manage bookings, memberships, and payments.",
-    "role": "Full‑stack Developer",
-    "period": "",
-    "responsibilities": [
-      "Built super admin panel for club registration, plans, holidays, and dynamic pricing",
-      "Implemented club admin dashboard for player/court management and memberships",
-      "Delivered player app for slot booking, booking modifications, and split/single payments",
-      "Designed payment workflows and end‑to‑end RESTful APIs"
-    ],
-    "tech": ["React.js", "Node.js", "Express.js", "MySQL", "Sequelize", "AWS EC2", "AWS S3", "JWT"],
-    "github": "",
-    "demo": ""
   }
+
 ]
