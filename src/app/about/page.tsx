@@ -54,8 +54,9 @@ export default function Page() {
                   <li className="rounded border px-3 py-2">My SQL ,MongoDB, Mongoose</li>
                   <li className="rounded border px-3 py-2">TailwindCSS, shadcn/ui</li>
                   <li className="rounded border px-3 py-2">Auth: JWT, Sessions, RBAC</li>
-                  <li className="rounded border px-3 py-2">React Query, Zustand/Redux</li>
-                  <li className="rounded border px-3 py-2">Stripe, Razorpay, Cashfree</li>
+                  <li className="rounded border px-3 py-2">React Query,Redux</li>
+                  <li className="rounded border px-3 py-2">Stripe, Razorpay, Cashfree, Encrow payments</li>
+                  <li className="rounded border px-3 py-2">Microservice, Monolithic</li>
 
                 </ul>
               </div>
